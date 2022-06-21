@@ -31,7 +31,7 @@ class Stack(object):
             return self.stk[-1]
 
 if __name__ == "__main__":
-    print("********Stack Implentation*********")
+    print("********Stack Implementation*********")
     ourStack = Stack(5)
     ourStack.push("10")
     ourStack.push("13")
