@@ -19,5 +19,5 @@ A stack ia an ordered list in which insertion and deletion operation are done fr
 
 ## Complexities
 #### Space - O(n)
-#### Time - O(1) for all the individual operation when implenatation is done with array and linked list except the delete operation in linked list which takes O(n).
+#### Time - O(1) for all the individual operation when implenatation is done with array and linked list.
 
