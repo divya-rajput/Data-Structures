@@ -1,6 +1,8 @@
 '''
     Leetcode-145--> Binary Tree Postorder Traversal
     Given the root of a binary tree, return the postorder traversal of its nodes' values.
+    Input: root = [1,null,2,3]
+    Output: [3,2,1]
     
 '''
 # Definition for a binary tree node.
@@ -9,7 +11,9 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 #Copy the below code in Leetcode
+
 class Solution:
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         result = []

@@ -1,6 +1,8 @@
 '''
     Leetcode-144---> Binary Tree Preorder Traversal
     Given the root of a binary tree, return the preorder traversal of its nodes' values.
+    Input: root = [1,null,2,3]
+    Output: [1,2,3]
 '''
 # Definition for a binary tree node.
 # class TreeNode:
@@ -8,9 +10,10 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-# from typing import List, Optional
+
 
 #Copy the below code in Leetcode
+
 class Solution:
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         result = []
